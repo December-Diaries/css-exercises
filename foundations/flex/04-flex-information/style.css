@@ -1,5 +1,9 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  gap: 32px;
 }
 
 img {
@@ -11,6 +15,22 @@ img {
   font-size: 36px;
   font-weight: 900;
 }
+
+.content{
+  display: flex;
+  gap: 52px;
+  /* justify-content:space-around;
+  width: 100%; no space so no need for justify. if add width 100% then justify works*/
+}
+
+.item{
+  width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
