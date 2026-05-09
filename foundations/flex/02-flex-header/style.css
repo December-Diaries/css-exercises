@@ -3,7 +3,7 @@
   background: papayawhip;
   display: flex;
   justify-content: space-between;
-  height:100px;
+  padding: 8px;
   align-items: center;
   
 }
